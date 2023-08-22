@@ -9,7 +9,12 @@ class screen3 extends StatefulWidget {
   State<screen3> createState() => _screen3State();
 }
 
-List<String> options = ['radio1', 'radio2', 'radio3', 'radio4'];
+List<String> options = [
+  'radio 1',
+  'radio 2',
+  'radio 3',
+  'radio 4',
+];
 
 class _screen3State extends State<screen3> {
   bool _hasBeenPressed1 = true;
